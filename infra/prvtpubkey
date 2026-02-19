@@ -1,7 +1,14 @@
+#If you run terraform init in terraform_module/, then file("prvtpub") looks inside terraform_module/.
+#So:
+#key in root → file("prvtpub") 
+#key in infra → file("infra/prvtpub") (or absolute path) 
+
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 QyNTUxOQAAACAAW0+MJEhtCa80lVl3qIZb4qXfP/V72Eakjr7SecUmIgAAAJiqg/upqoP7
 qQAAAAtzc2gtZWQyNTUxOQAAACAAW0+MJEhtCa80lVl3qIZb4qXfP/V72Eakjr7SecUmIg
-AAAECPDPJiKLGAznK7RjUpeBxG62Xd9CpSaGRVbR08fGBcmwBbT4wkSG0JrzSVWXeohlvi
+AAAECPDPJiKLGAznK7RjUpeBxG62Xja;fja;jabR08fGBcmwBbT4wkSG0JrzSVWXeohlvi
 pd8/9XvYRqSOvtJ5xSYiAAAAFXVidW50dUBpcC0xNzItMzEtNDAtMA==
 -----END OPENSSH PRIVATE KEY-----
+
+
