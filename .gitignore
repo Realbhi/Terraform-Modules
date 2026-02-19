@@ -1,0 +1,32 @@
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+
+# State files
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+
+# Crash logs
+**/crash.log
+**/crash.*.log
+
+# tfvars (may contain secrets)
+**/*.tfvars
+**/*.tfvars.json
+
+# Keys
+**/*.pem
+**/*.key
+**/*.pub
+
+# Plans
+**/*.tfplan
+
+# Extra junk
+infra/aws/
+infra/x.txt
+infra/y.txt
+backend/remote-backend
+
+
